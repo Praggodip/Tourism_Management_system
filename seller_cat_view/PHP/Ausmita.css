@@ -1,0 +1,135 @@
+body {
+
+    font-family: Arial, sans-serif;
+  
+    background-color: #ece5e5;
+  
+    padding: 50px;
+  
+    text-align: center;
+  
+  }
+   
+  fieldset {
+  
+    width: 50%;
+  
+    margin: 20px auto;
+  
+    padding: 20px;
+  
+    border: 2px solid #333;
+  
+    border-radius: 10px;
+  
+    background-color: white;
+  
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  
+  }
+   
+  label {
+  
+    display: inline-block;
+  
+    width: 150px;
+  
+    font-weight: bold;
+  
+    text-align: left;
+  
+  }
+   
+  input, textarea {
+  
+    width: calc(100% - 160px);
+  
+    padding: 8px;
+  
+    margin: 5px 0;
+  
+    border: 1px solid #ccc;
+  
+    border-radius: 5px;
+  
+    display: inline-block;
+  
+  }
+   
+  input[type="submit"] {
+  
+    width: 100px;
+  
+    padding: 10px;
+  
+    background-color: #28a745;
+  
+    color: white;
+  
+    font-weight: bold;
+  
+    border: none;
+  
+    border-radius: 5px;
+  
+    cursor: pointer;
+  
+  }
+   
+  input[type="submit"]:hover {
+  
+    background-color: #218838;
+  
+  }
+   
+  h2 {
+  
+    position: relative;
+  
+    top: 10px;  
+  
+  }
+   
+  legend {
+  
+    font-size: 18px;
+  
+    font-weight: bold;
+  
+    color: #333;
+  
+  }
+   
+  textarea {
+  
+    max-width: 100%;
+  
+    overflow: auto;
+  
+    overflow-y: auto;
+  
+  }
+   
+  input[type="radio"], label {
+  
+    display: inline-block;
+  
+    vertical-align: middle;
+  
+    margin-right: 10px;
+  
+  }
+   
+  .error {
+  
+    color: rgb(81, 4, 4);
+  
+    font-size: 0.85em;
+  
+    text-align: left;
+  
+    margin-left: 160px;
+  
+  }
+  
+   
